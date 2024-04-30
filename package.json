@@ -1,0 +1,24 @@
+{
+  "name": "git-actions",
+  "version": "1.0.0",
+  "description": "Git operations performed using typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lakshit-shah/git-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lakshit-shah/git-actions/issues"
+  },
+  "homepage": "https://github.com/Lakshit-shah/git-actions#readme",
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "typescript": "5.4.5"
+  }
+}
